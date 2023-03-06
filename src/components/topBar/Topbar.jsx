@@ -22,21 +22,21 @@ const Topbar = () => {
         </div>
       </div>
       {/*  */}
-      <div className="flex gap-5 text-xl items-center">
-        <a href="https://www.facebook.com/">
-          <FaFacebookF />
+      <div className="flex gap-5 text-xl items-center ">
+        <a href="https://www.facebook.com/" target="_blank">
+          <FaFacebookF className="text-white" />
         </a>
-        <a href="https://twitter.com/">
-          <AiOutlineTwitter />
+        <a href="https://twitter.com/" target="_blank">
+          <AiOutlineTwitter className="text-white" />
         </a>
-        <a href="https://www.linkedin.com/feed/">
-          <FaLinkedinIn />
+        <a href="https://www.linkedin.com/feed/" target="_blank">
+          <FaLinkedinIn className="text-white" />
         </a>
-        <a href="https://www.instagram.com/">
-          <AiOutlineInstagram />
+        <a href="https://www.instagram.com/" target="_blank">
+          <AiOutlineInstagram className="text-white" />
         </a>
-        <a href="https://www.youtube.com/">
-          <AiFillYoutube />
+        <a href="https://www.youtube.com/" target="_blank">
+          <AiFillYoutube className="text-white" />
         </a>
       </div>
     </div>

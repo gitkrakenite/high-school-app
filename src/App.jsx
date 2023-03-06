@@ -10,6 +10,9 @@ import Fee from "./screens/fee/Fee";
 import News from "./screens/news/New";
 import Contact from "./screens/contact/Contact";
 
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
+
 function App() {
   return (
     <div>

@@ -8,7 +8,7 @@ const Navbar = () => {
   return (
     <>
       {/* Desktop Navigation */}
-      <div className="hidden lg:flex justify-between pt-[10px] pl-[2em] pr-[2em] items-center">
+      <div className="hidden xl:flex justify-between pt-[10px] pl-[2em] pr-[2em] items-center">
         {/* logo */}
         <div className="flex items-center text-3xl cursor-pointer">
           <HiOutlineAcademicCap />
@@ -16,7 +16,7 @@ const Navbar = () => {
         </div>
         <div className="flex gap-9 items-center">
           <ul className="flex gap-5">
-            <Link to="/">
+            <Link to="/" style={{ textDecoration: "none" }}>
               <li
                 className="cursor-pointer text-gray-500 hover:text-slate-900"
                 style={{ fontWeight: 600, fontSize: "18px" }}
@@ -25,7 +25,7 @@ const Navbar = () => {
               </li>
             </Link>
 
-            <Link to="/curriculum">
+            <Link to="/curriculum" style={{ textDecoration: "none" }}>
               <li
                 className="cursor-pointer text-gray-500 hover:text-slate-900"
                 style={{ fontWeight: 600, fontSize: "18px" }}
@@ -34,7 +34,7 @@ const Navbar = () => {
               </li>
             </Link>
 
-            <Link to="/staff">
+            <Link to="/staff" style={{ textDecoration: "none" }}>
               <li
                 className="cursor-pointer text-gray-500 hover:text-slate-900"
                 style={{ fontWeight: 600, fontSize: "18px" }}
@@ -43,7 +43,7 @@ const Navbar = () => {
               </li>
             </Link>
 
-            <Link to="/about">
+            <Link to="/about" style={{ textDecoration: "none" }}>
               <li
                 className="cursor-pointer text-gray-500 hover:text-slate-900"
                 style={{ fontWeight: 600, fontSize: "18px" }}
@@ -52,7 +52,7 @@ const Navbar = () => {
               </li>
             </Link>
 
-            <Link to="/fee">
+            <Link to="/fee" style={{ textDecoration: "none" }}>
               <li
                 className="cursor-pointer text-gray-500 hover:text-slate-900"
                 style={{ fontWeight: 600, fontSize: "18px" }}
@@ -61,7 +61,7 @@ const Navbar = () => {
               </li>
             </Link>
 
-            <Link to="/news">
+            <Link to="/news" style={{ textDecoration: "none" }}>
               <li
                 className="cursor-pointer text-gray-500 hover:text-slate-900"
                 style={{ fontWeight: 600, fontSize: "18px" }}
@@ -70,7 +70,7 @@ const Navbar = () => {
               </li>
             </Link>
 
-            <Link to="/contact">
+            <Link to="/contact" style={{ textDecoration: "none" }}>
               <li
                 className="cursor-pointer text-gray-500 hover:text-slate-900"
                 style={{ fontWeight: 600, fontSize: "18px" }}
@@ -101,7 +101,11 @@ const Navbar = () => {
           </div>
           <div className="flex flex-col gap-9 items-center mt-[1em] text-center w-full">
             <ul className="flex flex-col gap-5">
-              <Link to="/" onClick={() => setToggle(false)}>
+              <Link
+                to="/"
+                onClick={() => setToggle(false)}
+                style={{ textDecoration: "none" }}
+              >
                 <li
                   className="cursor-pointer text-gray-500 hover:text-slate-900"
                   style={{ fontWeight: 600, fontSize: "18px" }}
@@ -110,7 +114,11 @@ const Navbar = () => {
                 </li>
               </Link>
 
-              <Link to="/curriculum" onClick={() => setToggle(false)}>
+              <Link
+                to="/curriculum"
+                onClick={() => setToggle(false)}
+                style={{ textDecoration: "none" }}
+              >
                 <li
                   className="cursor-pointer text-gray-500 hover:text-slate-900"
                   style={{ fontWeight: 600, fontSize: "18px" }}
@@ -119,7 +127,11 @@ const Navbar = () => {
                 </li>
               </Link>
 
-              <Link to="/staff" onClick={() => setToggle(false)}>
+              <Link
+                to="/staff"
+                onClick={() => setToggle(false)}
+                style={{ textDecoration: "none" }}
+              >
                 <li
                   className="cursor-pointer text-gray-500 hover:text-slate-900"
                   style={{ fontWeight: 600, fontSize: "18px" }}
@@ -128,7 +140,11 @@ const Navbar = () => {
                 </li>
               </Link>
 
-              <Link to="/about" onClick={() => setToggle(false)}>
+              <Link
+                to="/about"
+                onClick={() => setToggle(false)}
+                style={{ textDecoration: "none" }}
+              >
                 <li
                   className="cursor-pointer text-gray-500 hover:text-slate-900"
                   style={{ fontWeight: 600, fontSize: "18px" }}
@@ -137,7 +153,11 @@ const Navbar = () => {
                 </li>
               </Link>
 
-              <Link to="/fee" onClick={() => setToggle(false)}>
+              <Link
+                to="/fee"
+                onClick={() => setToggle(false)}
+                style={{ textDecoration: "none" }}
+              >
                 <li
                   className="cursor-pointer text-gray-500 hover:text-slate-900"
                   style={{ fontWeight: 600, fontSize: "18px" }}
@@ -146,7 +166,11 @@ const Navbar = () => {
                 </li>
               </Link>
 
-              <Link to="/news" onClick={() => setToggle(false)}>
+              <Link
+                to="/news"
+                onClick={() => setToggle(false)}
+                style={{ textDecoration: "none" }}
+              >
                 <li
                   className="cursor-pointer text-gray-500 hover:text-slate-900"
                   style={{ fontWeight: 600, fontSize: "18px" }}
@@ -155,7 +179,11 @@ const Navbar = () => {
                 </li>
               </Link>
 
-              <Link to="/contact" onClick={() => setToggle(false)}>
+              <Link
+                to="/contact"
+                onClick={() => setToggle(false)}
+                style={{ textDecoration: "none" }}
+              >
                 <li
                   className="cursor-pointer text-gray-500 hover:text-slate-900"
                   style={{ fontWeight: 600, fontSize: "18px" }}
@@ -171,7 +199,7 @@ const Navbar = () => {
         </div>
       ) : (
         <div
-          className="flex  justify-between items-end h-full w-[100%] pr-[1em] pt-[1em] text-3xl pb-[1em] cursor-pointer lg:hidden "
+          className="flex  justify-between items-end h-full w-[100%] pr-[1em] pt-[1em] text-3xl pb-[1em] cursor-pointer xl:hidden "
           onClick={() => setToggle(!toggle)}
         >
           <div>

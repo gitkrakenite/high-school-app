@@ -1,0 +1,5 @@
+.heroWrapper img {
+  height: 82vh;
+  object-fit: cover;
+  /* border-radius: 15px; */
+}

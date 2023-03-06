@@ -1,0 +1,21 @@
+.coursesWrap {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 15px;
+}
+
+.coursesWrap img {
+  border-radius: 10px;
+}
+
+@media (max-width: 500px) {
+  .coursesWrap {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media (max-width: 450px) {
+  .coursesWrap {
+    grid-template-columns: 1fr;
+  }
+}
