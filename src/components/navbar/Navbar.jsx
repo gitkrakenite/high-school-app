@@ -79,9 +79,12 @@ const Navbar = () => {
               </li>
             </Link>
           </ul>
-          <p className="bg-slate-900 text-white p-[10px] rounded-md cursor-pointer">
-            Reach Out
-          </p>
+
+          <a href="mailto:highschool@example.com">
+            <p className="bg-slate-900 text-white p-[10px] rounded-md cursor-pointer">
+              Reach Out
+            </p>
+          </a>
         </div>
       </div>
 

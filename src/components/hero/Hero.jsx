@@ -14,7 +14,7 @@ const Hero = () => {
           />
           <div className="absolute top-0 left-0 w-full h-full bg-[rgba(0,0,0,.5)]" />
           <Carousel.Caption>
-            <h3>First slide label</h3>
+            <h3>Our Curriculum is the best</h3>
             <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
           </Carousel.Caption>
         </Carousel.Item>
@@ -26,7 +26,7 @@ const Hero = () => {
           />
           <div className="absolute top-0 left-0 w-full h-full bg-[rgba(0,0,0,.5)]" />
           <Carousel.Caption>
-            <h3>Second slide label</h3>
+            <h3>Our Facilities are the envy of the region</h3>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
           </Carousel.Caption>
         </Carousel.Item>
@@ -38,7 +38,7 @@ const Hero = () => {
           />
           <div className="absolute top-0 left-0 w-full h-full bg-[rgba(0,0,0,.6)]" />
           <Carousel.Caption>
-            <h3>Third slide label</h3>
+            <h3>With the best most professional staff</h3>
             <p>
               Praesent commodo cursus magna, vel scelerisque nisl consectetur.
             </p>
