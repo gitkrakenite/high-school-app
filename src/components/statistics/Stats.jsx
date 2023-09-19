@@ -6,7 +6,7 @@ import { FaMoneyBillWave } from "react-icons/fa";
 
 const Stats = () => {
   return (
-    <div className="relative mt-[2em]">
+    <div className=" hidden lg:block relative mt-[2em]">
       <img
         src="https://images.pexels.com/photos/3613021/pexels-photo-3613021.jpeg?auto=compress&cs=tinysrgb&w=1600"
         alt=""

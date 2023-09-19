@@ -3,7 +3,7 @@ import "./footer.css";
 
 const Footer = () => {
   return (
-    <div className="relative mt-[1.3em]">
+    <div className="hidden lg:block relative mt-[1.3em]">
       <div className="w-full">
         {/* <video
         className="w-full h-[100vh] object-cover"

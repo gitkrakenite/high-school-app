@@ -4,7 +4,7 @@ const About = () => {
   return (
     <div className="pl-[1em] pr-[1em] pt-[2em]">
       {/* mission and vision */}
-      <div className="bg-slate-900 p-[50px] text-white flex gap-[20px] justify-between rounded-md mb-[1em]">
+      <div className="bg-slate-900 p-[50px] text-white flex flex-col md:flex-row gap-[20px] justify-between rounded-md mb-[1em]">
         <div>
           <h1>Our Vision</h1>
           <p>
@@ -14,7 +14,7 @@ const About = () => {
             praesentium voluptates, hic, ratione tenetur.
           </p>
         </div>
-        <div className="h-[150px] w-[10px] bg-white rounded-lg" />
+        <div className="h-[150px] w-[10px] bg-white rounded-lg hidden md:block" />
         <div>
           <h1>Our Mission</h1>
           <p>
@@ -29,7 +29,7 @@ const About = () => {
       <div className="">
         <h1 className="text-2xl">Why Should You Choose Us ?</h1>
         {/* first */}
-        <div className="flex gap-[2em] items-center mb-9 mt-6">
+        <div className="flex flex-col md:flex-row gap-[2em] items-center mb-9 mt-6">
           <div className="flex-[0.4]">
             <img
               src="https://images.pexels.com/photos/6683580/pexels-photo-6683580.jpeg?auto=compress&cs=tinysrgb&w=1600"
@@ -59,7 +59,7 @@ const About = () => {
           </div>
         </div>
         {/*  */}
-        <div className="flex items-center">
+        <div className="flex flex-col md:flex-row items-center">
           <div>
             <h1>Perfect Blend of Sports </h1>
             <h1>and Academic Excellence</h1>

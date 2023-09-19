@@ -15,7 +15,7 @@ const Events = () => {
       <div></div>
 
       {/* wrapper */}
-      <div className="flex gap-[1em]">
+      <div className="flex flex-col lg:flex-row gap-[1em]">
         {/*  */}
         <div className="flex gap-6">
           <div

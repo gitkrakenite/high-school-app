@@ -8,13 +8,13 @@
   border-radius: 10px;
 }
 
-@media (max-width: 500px) {
+@media (max-width: 800px) {
   .coursesWrap {
     grid-template-columns: 1fr 1fr;
   }
 }
 
-@media (max-width: 450px) {
+@media (max-width: 550px) {
   .coursesWrap {
     grid-template-columns: 1fr;
   }
